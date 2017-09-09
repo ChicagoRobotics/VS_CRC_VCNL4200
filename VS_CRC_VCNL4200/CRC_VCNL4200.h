@@ -14,7 +14,7 @@
 //Register declarations
 #define VCNL4200_I2CADDR 0x51
 #define VCNL4200_ALS_CONF_REG 0x00
-#define VCNL4200_ALS_THDH_REG 0x01 //Ambient Light Sensor Threshold Data High
+#define VCNL4200_ALS_THDH_REG 0x01 //Ambient Light Sensor Threshold Data High.  Hi Ted!
 #define VCNL4200_ALS_THDL_REG 0x02 //Ambient Light Sensor Threshold Data Low
 #define VCNL4200_PS_CONF1_CONF2_REG 0x03
 #define VCNL4200_PS_CONF3_MS_REG 0x04 //Conf3 and Mode Select
