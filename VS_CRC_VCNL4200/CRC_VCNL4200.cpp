@@ -21,6 +21,7 @@ boolean CRC_VCNL4200::exists() {
 	byte lowByte = Wire.read();
 	byte highByte = Wire.read();
 	//Strange that highByte returns 0x10 while documentation says it should return 0x01
+	//Update: 10/11/2017 - Vishay support confirms the documentation is wrong, correct value is 0x10
 	if ((lowByte == 0x58) && (highByte == 0x10)) {
 		return true;
 	}
